@@ -11,5 +11,15 @@ const parent = React.createElement("div", { id: "parent" }, [
     React.createElement("h2", {}, "im h2 tag "),
   ]),
 ]);
+console.log(parent);
+
+//created h1 tag inside jsx
+const jsxHeading=<h1 id="heading1">Namaste jsx</h1>
+console.log(jsxHeading);
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+//root.render(parent);
+root.render(jsxHeading);
+
+
+
